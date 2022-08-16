@@ -1,0 +1,28 @@
+extends layouts/default
+include helpers/mixins
+
+block variables
+	- const title = "AKRA"
+
+block content
+	.wrapper
+		include ../blocks/modules/header/header
+
+		.page
+			include ../blocks/modules//hero/hero
+			include ../blocks/modules//develop/develop
+			include ../blocks/modules//mayning/mayning
+			include ../blocks/modules//crowdfunding/crowdfunding
+			include ../blocks/modules//block-video/block-video
+			include ../blocks/modules//buy/buy
+			include ../blocks/modules//bridges/bridges
+			include ../blocks/modules//map/map
+			include ../blocks/modules//presale/presale
+			include ../blocks/modules//diagram/diagram
+
+
+		include ../blocks/modules/footer/footer
+
+block scripts
+	script(src="js/vendor.js")
+	script(src="js/main.js")
