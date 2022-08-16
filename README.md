@@ -1,1 +1,1 @@
-# ACRACOIN
+# AKRACOIN
