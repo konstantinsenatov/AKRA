@@ -1,1 +1,1 @@
-# AKRA
+# AKRACOIN
